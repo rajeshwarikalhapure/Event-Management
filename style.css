@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("amaizing-setting-tableware-appliances-some-romantic-place.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.6); /* transparent white */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Transparent form */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.5); /* lighter transparency */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Transparent table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.5); /* see-through table */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.2); /* softer borders */
+  background: rgba(255, 255, 255, 0.3); /* semi-transparent cells */
+}
+
+form input, form textarea, form button {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.8); /* slight transparency */
+}
+
+form button {
+  margin-top: 15px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #0056b3;
+}
